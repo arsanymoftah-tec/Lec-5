@@ -1,0 +1,111 @@
+body {
+  background-color: #ffffff;
+  background-image: url(../imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.div1 {
+  width: 400px;
+  background-color: #ffffff;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.tit1 {
+  background-color: green;
+  color: #ffffff;
+}
+
+.desc1 {
+  color: #ffffff;
+  background-color: green;
+}
+
+.tit1:hover,
+.desc1:hover {
+  background-color: #ffffff;
+  color: green;
+}
+
+.div1 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.div2 {
+  width: 400px;
+  background-color: transparent;
+  border: 2px solid green;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.tit2, .tit3 {
+  color: #ffffff;
+  background: green;
+}
+
+.ul1, .ol {
+  background-color: hwb(120 8% 67%);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+li {
+  color: #ffffff;
+}
+
+.ul1 ul li:hover,
+.ol ol li:hover{
+  background-color: #ffffff;
+  color: hwb(120 8% 67%);
+}
+
+.ul2 {
+  background-color: green;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.ul2 ul li:hover {
+  background-color: #ffffff;
+  color: green;
+}
+
+.form {
+  width: 400px;
+  background-color: #dcdcdc;
+  border: 2px dashed green;
+  padding: 10px;
+}
+
+textarea {
+  width: 350px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.reset,
+.send {
+  color: #ffffff;
+  background-color: green;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+}
+
+.reset:hover,
+.send:hover {
+  color: green;
+  background-color: transparent;
+}
